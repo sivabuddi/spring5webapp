@@ -7,7 +7,6 @@ import guru.springframework.spring5webapp.repositories.BookRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-
 /**
  * Created by jt on 12/23/19.
  */
@@ -43,7 +42,5 @@ public class BootStrapData implements CommandLineRunner {
 
         System.out.println("Started in Bootstrap");
         System.out.println("Number of Books: " + bookRepository.count());
-
-
     }
 }
